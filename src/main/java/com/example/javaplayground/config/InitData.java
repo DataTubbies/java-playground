@@ -1,3 +1,5 @@
+
+/*
 package com.example.javaplayground.config;
 
 import com.example.javaplayground.repository.ArtistRepository;
@@ -35,3 +37,4 @@ public class InitData implements CommandLineRunner{
         }
     }
 }
+*/

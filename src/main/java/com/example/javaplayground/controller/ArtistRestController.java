@@ -28,7 +28,7 @@ public class ArtistRestController {
 
     @GetMapping("/")
     public List<Artist> getArtists() {
-        return Collections.singletonList(artistRepository.getAll());
+        return artistRepository.findAll();
     }
 
     @GetMapping("/{id}")

@@ -11,7 +11,6 @@ import java.util.UUID;
 @Entity
 public class Artist {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     private String name;
     private String activeSince;
