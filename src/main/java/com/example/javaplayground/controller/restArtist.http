@@ -1,0 +1,12 @@
+POST http://localhost:8080/artists/
+Content-Type: application/json
+
+{
+    "name": "item1",
+    "shortDescription": "item1 description"
+}
+
+###
+GET http://localhost:8080/artists/
+Accept: application/json
+
